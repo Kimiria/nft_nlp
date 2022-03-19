@@ -42,7 +42,7 @@ topic_model.visualize_barchart(top_n_topics=5)
 topic_model.visualize_heatmap(n_clusters=20, width=1000, height=1000)
 topic_model.visualize_term_rank()
 
-# Updating ans selecting topics viewed before
+# Updating and selecting topics viewed before
 
 topic_model.update_topics(docs, topics, n_gram_range=(1, 2))
 topic_model.get_topic(0)   # We select topic that we viewed before
