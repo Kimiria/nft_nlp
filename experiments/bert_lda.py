@@ -25,11 +25,6 @@ from sentence_transformers import SentenceTransformer
 
 ntopic = 20
 nltk.download('punkt')
-
-
-# In[ ]:
-
-
 stop_words = get_stop_words('en')
 
 
